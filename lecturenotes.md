@@ -7,9 +7,9 @@
 # Lecture2 -  Strings 
 String is the basically text,character enclosed in "" or '' sometimes """ """
 
-- len = is a built in length command to count the length of string list etc etc 
+- len() = is a built in length command to count the length of string list etc etc 
 - indexing [starting_value(n) : ending_index(n-1):skipping index] 
-
+# String methods
 - to get lower case .lower() 
 - to get upper case .upper()
 - to count .count()
@@ -23,13 +23,13 @@ String is the basically text,character enclosed in "" or '' sometimes """ """
 - .split() - one long string and chops it up into smaller, individual strings.
 
 # string concatenation and replication
-- * is udes ad replication 
+- * is used as replication 
 - + is used a string concatenation
 # string formating
 - format string f,'{}{}' is used to format string variable name inside {} 
 - r', - raw string doesnt have filer 
 - .format() - string formating  
-
+# helping commands
 dir() - shows all the method we can work with the particular datatype
 help() - gives information and description of the method do 
 
@@ -135,8 +135,8 @@ print(sorted_course)
 
 - we use key-value pair enclodes in {'key' : value}
 - key - unique identifier , value-data(defination of the word )
-
-- get method = to get the value of the key 
+# dictionary methods
+- get(key, defaukt_values|this is optional ) method = to get the value of the key 
 - update({}) = to update the dictionary
 - del dictionary_name('Key that needs to be updates')
 - to remove key we can use pop('key_name')
@@ -144,5 +144,6 @@ print(sorted_course)
 - dictionary.key() - returns the keys
 - dictionary.values() - returns the values
 - to get key-value pair .items()
-- 
+- some operation from lines 101 to 120 lines in corey1.py 
+
 

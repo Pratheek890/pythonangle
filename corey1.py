@@ -117,4 +117,7 @@ for i ,key in enumerate(student):
     print(i,key)
 
 for key,value in student.items():
-    print(key,value,sep = " :")    
+    print(key,value,sep = " : ")   
+
+    
+     
