@@ -82,7 +82,7 @@ str() - convert to string
 - enclosed in []
 - index start from 0 from start
 - to access the last item -1 is used 
-
+- list are mutable (we can alter the list)
 # list methods
 - reverse() - to reverse list
 - sort() - sort based on aplhabetic order
@@ -111,6 +111,38 @@ print(sorted_course)
 - max - returns the maximun number present in the list
 - sum - returns the sum of number present in the list 
 
+# to access the index and value in the list 
+ - we used enumerate function
 
+# Tuples 
+- enclosed in ()
+- non-mutable (we cannot change once written)
 
+# Set
+- enclosed in {}
+- no duplicates unordered 
+- to create empty set  use set()
+# Memebership operator 
+- in 
+- not in 
+
+# union,intersection,differenciation
+- set_1.union(set_2)   = #union of two sets
+- set_1.intersection(set_2)  = #intersection of two sets 
+- set_2.difference(set_1)  = #difference of two sets
+
+# Lecture 5 : Dictionaries
+
+- we use key-value pair enclodes in {'key' : value}
+- key - unique identifier , value-data(defination of the word )
+
+- get method = to get the value of the key 
+- update({}) = to update the dictionary
+- del dictionary_name('Key that needs to be updates')
+- to remove key we can use pop('key_name')
+- to know the no of keys len()
+- dictionary.key() - returns the keys
+- dictionary.values() - returns the values
+- to get key-value pair .items()
+- 
 
