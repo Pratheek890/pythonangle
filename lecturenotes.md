@@ -146,4 +146,15 @@ print(sorted_course)
 - to get key-value pair .items()
 - some operation from lines 101 to 120 lines in corey1.py 
 
+# Lecture 6: Conditional statement 
+- if ,else,elif 
+# example code : Corey2.py
+
+# and , or , not
+- and = when both statemnts are True
+- or = when any one statement is true
+- not = switches from false to true and true to false
+
+-  id() - keyword to get the identity number of element
+ 
 

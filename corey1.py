@@ -113,7 +113,7 @@ print(student)
 #get - to access the value of the key
 print(student.get('student_name'))
 
-for i ,key in enumerate(student):
+for i ,key in enumerate(student):     #enumerate function is used to get the index and key values  
     print(i,key)
 
 for key,value in student.items():
