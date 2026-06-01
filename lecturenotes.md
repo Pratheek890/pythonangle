@@ -68,7 +68,7 @@ help() - gives information and description of the method do
 -  != - not equal to 
 - >= - greater than or equal to 
 - =< - less than or equal to 
-
+- object identity = is - check th value of same id  
 # type casting 
 int() - convert to integer
 float() - convert to float
@@ -135,7 +135,7 @@ print(sorted_course)
 
 - we use key-value pair enclodes in {'key' : value}
 - key - unique identifier , value-data(defination of the word )
-# dictionary methods
+# Dictionary methods
 - get(key, defaukt_values|this is optional ) method = to get the value of the key 
 - update({}) = to update the dictionary
 - del dictionary_name('Key that needs to be updates')
@@ -148,13 +148,26 @@ print(sorted_course)
 
 # Lecture 6: Conditional statement 
 - if ,else,elif 
+- if - executes when it meets the condition 
+- else - alternate to it statemnt when its false
+- elif - multiple if statements 
 # example code : Corey2.py
 
-# and , or , not
+# and , or , not  - Boolean operator 
 - and = when both statemnts are True
 - or = when any one statement is true
 - not = switches from false to true and true to false
 
 -  id() - keyword to get the identity number of element
- 
+-  
+ # lecture 7 : Loops and iteration
+- for and while loops 
+- for loop - iterate to certain number of values 
+- range()/range(n,n-1,skipping values)  - to go through loop fir certain number of times in a loop with numerical values  #5 in corey2.py
+- break - breaks the loop 
+- continue - continues to iterate in loop
+
+- while loop - iternate until certain condition is met
+- += increment
+- -= decrement
 
